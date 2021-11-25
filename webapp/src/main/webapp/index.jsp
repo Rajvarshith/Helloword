@@ -5,7 +5,7 @@
 <h1> All the best.................... </h1>
 
 
-<h1> Pratice is More Important................... </h1>
+<h1> Pratice is MOST Important................... </h1>
 
 
 
