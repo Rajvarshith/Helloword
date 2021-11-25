@@ -1,0 +1,135 @@
+CICD : 
+Tagregt :  we need to install application in tomcat server using jenskin severs.
+Step : 1 first create one ubuntu server in AWS and connect to mobexterm 
+step 2 : first install git, and java and jenkins  in ur server(jenkins)
+
+
+
+clear
+    2  echo "# Helloword" >> README.md
+    3  git init
+    4  git add README.md
+    5  git commit -m "first commit"
+    6  git branch -M main
+    7  git remote add origin https://github.com/Rajvarshith/Helloword.git
+    8  git push -u origin main
+    9  git branch -M main
+   10  git push -u origin main
+   11  clear
+   12  git --version
+   13  git init
+   14  sudo apt -get install openjdk-8*
+   15  sudo apt -get install openjdk -8 *
+   16  clear
+   17  sudo add-apt-repository ppa:openjdk-r/ppa
+   18  sudo apt-get update
+   19  sudo apt-get install -y openjdk-11-jdk
+   20  cd /tmp ; sudo wget https://dlcdn.apache.org/maven/maven-3/3.8.3/binaries/apache-maven-3.8.3-bin.tar.gz
+   21  cd /tmp ; sudo tar -xzf apache-maven-3.8.3-bin.tar.gz -C  /opt/
+   22  cd.
+   23  cd .
+   24  cd..
+   25  cd
+   26  wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
+   27  echo deb https://pkg.jenkins.io/debian-stable binary/ | sudo tee /etc/apt/sources.list.d/jenkins.list
+   28  sudo apt-get update
+   29  sudo apt-get install jenkins
+   30  clear
+   31  git --version
+   32  java --version
+   33  ps -ef|grp jenkins
+   34  ps -ef |grep Jenkins
+   35  clear
+   36  sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+
+
+Tomcat sever
+
+clear
+    2  sudo add-apt-repository ppa:openjdk-r/ppa
+    3  clear
+    4  java --version
+    5  Java --version
+    6  history
+    7  sudo add-apt-repository ppa:openjdk-r/ppa
+    8  sudo apt-get update
+    9  sudo apt-get install -y openjdk-11-jdk
+   10  clear
+   11  java --version
+   12  sudo apt -get update
+   13  sudo apt-get update
+   14  wget https://downloads.apache.org/tomcat/tomcat-8/v8.5.73/bin/apache-tomcat-8.5.73.tar.gz.asc
+   15  ls
+   16  tar -xzf
+   17  tar xvzf
+   18  tar -xvzf apache-tomcat-8.5.73.tar.gz
+   19  ls
+   20  tar -xvf apache-tomcat-8.5.73.tar.gz
+   21  sudomtar -xvf apache-tomcat-8.5.73.tar.gz
+   22  sudo tar -xvf apache-tomcat-8.5.73.tar.gz
+   23  clear
+   24  sudo wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.55/bin/apache-tomcat-9.0.55.tar.gz
+   25  ls
+   26  tar -xvf apache-tomcat-9.0.55.tar
+   27  history
+   28  tar -xvf apache-tomcat-9.0.55.tar.gz
+   29  clear
+   30  ls
+   31  cd apache-tomcat-9.0.55/
+   32  ls
+   33  cdbin/
+   34  cd bin/
+   35  ls
+   36  ./shutdown.sh
+   37  ./startup.sh
+   38  clear
+   39  cd..
+   40  cd
+   41  cd  apache-tomcat-9.0.55/
+   42  ls
+   43  vi  server.xml
+   44  cd cof/
+   45  cd conf/
+   46  ls
+   47  vi server.xml
+   48  cd..
+   49  cd
+   50  cd  apache-tomcat-9.0.55/
+   51  cd bin/
+   52  ls
+   53  ./shutdown.sh
+   54  ./startup.sh
+   55  ls
+   56  find / -name context.xml
+   57*
+   58  cd
+   59  cd  apache-tomcat-9.0.55/
+   60  cd webapps/
+   61  cd manager/
+   62  ls
+   63  cd MET-INF/
+   64  cd META-INF/
+   65  vi context.xml
+   66  cd.
+   67  cd
+   68  cd  apache-tomcat-9.0.55/
+   69  cd cof/
+   70  cd conf/
+   71  ls
+   72  vi tomcat-users.xml
+   73  cd
+   74  cd apacche-tomcat-9.0.55/
+   75  cd  apache-tomcat-9.0.55/
+   76  cd bin/
+   77  ls
+   78  ./ shutdown.sh
+   79  ./shutdown.sh
+   80  startup.sh
+   81  ./startup.sh
+   82  cd
+   83  ls
+   84  cd webapp/
+   85  cd webapps/
+   86  ls
+   87  cd
+   88  history
