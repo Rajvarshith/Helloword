@@ -23,9 +23,9 @@ pipeline{
                 sh """
                     scp -o StrictHostKeyChecking=no target/Helloword.war  ec2-user@172.31.7.146:/home/ubuntu/apache-tomcat-9.0.55/webapps/
                     
-                    ssh ec2-user@172.31.7.146 /home/ec2-user/apache-tomcat-9.0.55/bin/shutdown.sh
+                    ssh ec2-user@172.31.7.146 /home/ubuntur/apache-tomcat-9.0.55/bin/shutdown.sh
                     
-                    ssh ec2-user@172.31.7.146 /home/ec2-user/apache-tomcat-9.0.55/bin/startup.sh
+                    ssh ec2-user@172.31.7.146 /home/ubuntu/apache-tomcat-9.0.55/bin/startup.sh
                 
                 """
             }
