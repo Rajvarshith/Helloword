@@ -148,15 +148,7 @@
 			</plugin>
 			
 			
-			 <pluginRepositories>
-				<pluginRepository>
-				  <id>central</id>
-				  <url>http://repo.maven.apache.org/maven3</url>
-				  <releases>
-				    <enabled>true</enabled>
-				  </releases>
-				</pluginRepository>
-      </pluginRepositories>
+			
 			
 </plugins>
 	</build>
