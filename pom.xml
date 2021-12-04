@@ -142,7 +142,7 @@
 				<configuration>
 					<downloadSources>true</downloadSources>
 					<downloadJavadocs>true</downloadJavadocs>
-					<wtpversion>2.0</wtpversion>
+					<wtpversion>3.6</wtpversion>
 					<wtpContextName>maven-web-application</wtpContextName>
 				</configuration>
 			</plugin>
@@ -151,7 +151,7 @@
 			 <pluginRepositories>
 				<pluginRepository>
 				  <id>central</id>
-				  <url>http://repo.maven.apache.org/maven2</url>
+				  <url>http://repo.maven.apache.org/maven3</url>
 				  <releases>
 				    <enabled>true</enabled>
 				  </releases>
