@@ -409,7 +409,7 @@
                         <dependencies>
                             <dependency>
                                 <groupId>com.devopsdemo.tutorial</groupId>
-                                <artifactId>sampleapp</artifactId>
+                                <artifactId>webapp</artifactId>
                                 <version>${project.version}</version>
                             </dependency>
                         </dependencies>
