@@ -28,11 +28,18 @@ clear
     **After installation run or check the below line for java 
     java --version
 
-    ***below 2 lines  Mavan installtion 
+    ***below 2 lines  Mavan package installtion 
     
    20  cd /tmp ; sudo wget https://dlcdn.apache.org/maven/maven-3/3.8.3/binaries/apache-maven-3.8.3-bin.tar.gz
    21  cd /tmp ; sudo tar -xzf apache-maven-3.8.3-bin.tar.gz -C  /opt/
+   Note : you can copy the new biild url from https://maven.apache.org/  and copy the link paste in ubuntu 
+    
    **mavan installtion completed
+   ** To find mavan varible in u can install maven run below lines 
+   sudo apt update
+   sudo apt install maven
+   mvn -version
+   ******   
    22  cd.
    23  cd .
    24  cd..
@@ -157,3 +164,16 @@ clear
 
 <user username="deployer" password="deployer" roles="manager-script"/>
 <user username="tomcat" password="s3cret" roles="manager-gui"/>
+
+****** Observration & take minimum prerequest******
+** check the war file name from source to target 
+** run mvn --version
+** to add users in vi server.xml  =>  portal number chcnged to 80 80 to 8090 or ur  requried  
+*** context.xml we can delete vdeal td 
+** vi tomcat-users.xml =>  you cancopy and paste the users 
+** in jenkins u an amvn and jdk version in configuration tool .
+**and maintain the Jenkins  file name (it same as git hub (asame as ur git hub repostries))
+** POM.XML WE CAN DEFINE THE ARTIFICAT ID AND VERSION AND FILE NAME ALL THINGHS.
+
+
+
