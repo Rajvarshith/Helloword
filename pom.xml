@@ -10,10 +10,14 @@
 	<url>http://maven.apache.org</url>
 
     <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <failOnMissingWebXml>false</failOnMissingWebXml>
-        <vaadin.version>8.0.0.alpha2</vaadin.version>
-        <vaadin.plugin.version>${vaadin.version}</vaadin.plugin.version>
+               <sonar.host.url>http://3.23.114.124:9000/</sonar.host.url>
+		<sonar.login>admin</sonar.login>
+		<sonar.password>admin123</sonar.password>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+               <failOnMissingWebXml>false</failOnMissingWebXml>
+              <vaadin.version>8.0.0.alpha2</vaadin.version>
+             <vaadin.plugin.version>${vaadin.version}</vaadin.plugin.version>
     </properties>
 
     <repositories>
