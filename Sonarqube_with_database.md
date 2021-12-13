@@ -85,3 +85,97 @@ chown -R sonar:sonar
 Reload the demon and start sonarqube service
 systemctl daemon-reload 
 systemctl start sonarqube.service 
+
+HIstory 
+root@ip-172-31-27-10:/opt# history
+    1  clear
+    2  java --version
+    3  clear
+    4  pwd
+    5  sudo su-
+    6  clear
+    7  sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
+    8  wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+    9  sudo apt-get update
+   10  sudo apt-get -y install postgresql
+   11  clear
+   12  systemctl status postgresql
+   13  cat /etc/postgressql
+   14  sudo passwd postgres
+   15  su - postgres
+   16  clear
+   17  systemctl restart postgresql
+   18  systemctl status postgresql
+   19  apt  install net - tools
+   20  apt  install net -tools
+   21  clear
+   22  sudo apt  install net - tools
+   23  sudo apt  install net -tools
+   24  sudo apt  install net - tools
+   25  check point
+   26  apt install gitlab-shell
+   27  check point
+   28  apt install net-tools
+   29  netstat -tulpn
+   30  vi /etc/sysctl.conf
+   31  vi /etc/security/limits.conf
+   32  init 6
+   33  cd /opt/
+   34  ls
+   35  wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-8.9.3.48735.zip
+   36  ll
+   37  apt install unzip
+   38  unzip sonarqube-8.9.3.48735.zip
+   39  cd sonarqube-8.9.3.4873/
+   40  cd sonarqube-8.9.3.48735
+   41  clear
+   42  ll
+   43  cd conf/
+   44  ls
+   45  vi sonar.properties
+   46  cat >> /etc/systemd/system/sonarqube.service <<EOL
+[Unit]
+Description=SonarQube service
+After=syslog.target network.target
+
+[Service]
+Type=forking
+User=sonar
+Group=sonar
+PermissionsStartOnly=true
+ExecStart=/opt/sonarqube/bin/linux-x86-64/sonar.sh start
+ExecStop=/opt/sonarqube/bin/linux-x86-64/sonar.sh stop
+StandardOutput=syslog
+LimitNOFILE=65536
+LimitNPROC=4096
+TimeoutStartSec=5
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+EOL
+
+   47  cat /etc/systemd/system/sonarqube.service
+   48  cd ../
+   49  cd  /bin/
+   50  cd..
+   51  cd ../
+   52  cd opt/
+   53  ls
+   54  cd sonarqube-8.9.3.48735/bin/
+   55  ls
+   56  cd linux-x86-64/
+   57  pwd
+   58  cd /opt
+   59  mv sonarqube-8.9.3.48735/ sonarqube
+   60  useradd -d /opt/sonarqube sonar
+   61  ls
+   62  ls -l
+   63  chown -R sonar:sonar /opt/sonarqube
+   64  ls -l
+   65  systemctl daemon-reload
+   66  systemctl start sonarqube.service
+   67  ls -l
+   68  ps -ef |grep sonar
+   69  netstat -tulpn
+   70  history
