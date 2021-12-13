@@ -1,4 +1,4 @@
-Ref:https://github.com/ravdy/DevOps/blob/master/sonarqube/Sonarqube_with_database.md
+Ref:https://github.com/ravdy/DevOps/blob/master/sonarqube/Sonarqube_with_database.md (view in Edit mode for get clarity)
 Need an EC2 instance (min t2.small)
 Install Java-11
  apt-get update   
