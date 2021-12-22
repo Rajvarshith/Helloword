@@ -17,3 +17,10 @@
    16  ./artifactory.sh start
    17  cd ../../
    18  history
+Access artifactory from browser
+
+http://<PUBLIC_IP_Address>:8081 
+
+Provide credentials
+username: admin
+password: passwrod 
