@@ -1,0 +1,19 @@
+ clear
+ Ref; https://github.com/ravdy/DevOps/tree/master/Artifactory
+    2  sudo add-apt-repository ppa:openjdk-r/ppa
+    3  sudo apt-get update
+    4  sudo apt-get install -y openjdk-11-jdk
+    5  cd /opt/
+    6  wget https://jfrog.bintray.com/artifactory/jfrog-artifactory-oss-6.9.6.zip
+    7  unzip jfrog-artifactory-oss-6.9.6.zip
+    8  apt install unzip
+    9  unzip jfrog-artifactory-oss-6.9.6.zip
+   10  clear
+   11  ls
+   12  cd artifactory-oss-6.9.6/
+   13  ls
+   14  cd bin
+   15  ls
+   16  ./artifactory.sh start
+   17  cd ../../
+   18  history
