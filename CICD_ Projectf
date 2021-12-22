@@ -2,7 +2,7 @@ CICD :
 Tagregt :  we need to install application in tomcat server using jenskin severs.
 Step : 1 first create one ubuntu server in AWS and connect to mobexterm 
 step 2 : first install git, and java and jenkins  in ur server(jenkins)
-
+******Jenkin  portal : 8080****
 
 
 clear
@@ -62,7 +62,7 @@ clear
 
 
 Tomcat sever
-
+******Tomcat  portal : 8090****
 clear
     2  sudo add-apt-repository ppa:openjdk-r/ppa
     3  clear
