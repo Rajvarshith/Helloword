@@ -23,6 +23,7 @@ cd /opt/sonarqube-x.x/bin/linux-x86-64
 ./sonar.sh start
 Connect to the SonarQube server through the browser. It uses port 9000.
 Note: Port should be opened in the Security group
+Defualt username /pwd: admin/admin
 
 http://<Public-IP>:9000
 🧹 CleanUp
